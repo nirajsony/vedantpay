@@ -28,7 +28,6 @@ body{
   margin-top: 20px;
 }
 
-
 .msg-form {
   background-color: white;
   padding: 20px;
@@ -39,30 +38,35 @@ body{
   padding-left: 20px;
 }
 
-
 .contact-input-group:focus {
   border: 1px solid #ffb037;
 }
 
-
-
 .links {
   padding-top: 40px;
 }
-.contact{
-  display: block;
-  text-align: ;
-}
+
 .pad {
   padding-top: 20px;
 }
+.card0{
+  padding-left: 10%!important;
+  padding-right: 10%!important;
+}
 
-#bordering a:active {
-  border: 1px solid #0080ff;
+@media screen and (max-width: 750px) {
+  .card0 {
+  padding-left: 5%!important;
+  padding-right: 5%!important;
+  }
 }
 
 .contacts-icon {
   margin-right: 10px;
+}
+.contact{
+  display: block;
+  text-align: left;
 }
 
 .contact_send_msg_btn {
