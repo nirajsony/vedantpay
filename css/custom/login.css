@@ -1,0 +1,142 @@
+
+
+/* Vendant Pay CSS  */
+/* Copyright@vendantpay.com  */
+/* All the images, logo and styles used in this application is an assest of VedantPay.Com. Using these assests without permission is subjected to copyright claim and you may face legal issues.  */
+
+.primary_theme_color{
+  color: #f78b1f;
+}
+
+
+.primary_theme_bgcolor{
+  background-color: #f78b1f;
+}
+
+body{
+  margin: 0 !important;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+.card0 {
+  border-radius: 0px;
+  margin: auto 7% ;
+
+}
+
+.card2 {
+  margin: 40px 40px auto 40px;
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.image {
+  margin: 0px auto;
+  width: 360px;
+  height: 280px;
+}
+
+.border-line {
+  border-right: 1px solid #eeeeee;
+}
+
+.text-sm {
+  font-size: 14px !important;
+}
+
+::placeholder {
+  color: #bdbdbd;
+  opacity: 1;
+  font-weight: 300;
+}
+
+:-ms-input-placeholder {
+  color: #bdbdbd;
+  font-weight: 300;
+}
+
+::-ms-input-placeholder {
+  color: #bdbdbd;
+  font-weight: 300;
+}
+
+input,
+textarea {
+  padding: 10px 12px 10px 12px;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  margin-top: 2px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #2c3e50;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+input:focus,
+textarea:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0;
+}
+
+button:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+}
+
+.btn-blue {
+  background-color: #46a0e8;
+  width: 150px;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.btn-blue:hover {
+  background-color: #f78b1f;
+  ;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+  .logo {
+    margin-left: 0px;
+  }
+
+  .image {
+    width: 300px;
+    height: 220px;
+  }
+
+  .border-line {
+    border-right: none;
+  }
+
+  .card2 {
+    border-top: 1px solid #eeeeee !important;
+    margin: 0px 15px;
+  }
+}
+#login-section{
+  margin: -30px 20% auto 20%;
+}
