@@ -140,3 +140,64 @@ a:hover {
     font-size: 0.9rem;
    
 }
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    
+    .info_div {
+        height: auto;
+        
+    }
+.topbar_left{
+    text-align: center;
+    -webkit-text-size-adjust: auto;
+    padding-left: 12px;
+}
+
+.topbar_right{
+    text-align: center;
+    -webkit-text-size-adjust: auto;
+    padding-right: 12px;
+}
+
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .info_div {
+        height: auto;
+        
+    }
+.topbar_left{
+    text-align: center;
+    -webkit-text-size-adjust: auto;
+    padding-left: 12px;
+}
+
+.topbar_right{
+    text-align: center;
+    -webkit-text-size-adjust: auto;
+    padding-right: 12px;
+}
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    body {
+        background-color: blue;
+    }
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    body {
+        background-color: green;
+    }
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body {
+        background-color: white;
+    }
+}
