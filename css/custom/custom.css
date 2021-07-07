@@ -4,6 +4,7 @@
 /* Copyright@vendantpay.com  */
 /* All the images, logo and styles used in this application is an assest of VedantPay.Com. Using these assests without permission is subjected to copyright claim and you may face legal issues.  */
 
+@import "../typography.css";
 .primary_theme_color{
     color: #f78b1f;
 }
@@ -13,6 +14,9 @@
     background-color: #f78b1f;
 }
 
+.bgcolor2{
+    background-color:#e57a10;
+}
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -27,10 +31,10 @@
   }
 
 
-.body{
+body{
     margin: 0 !important;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size: 1rem;
+    font-family: QuickSand;
+     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
@@ -77,4 +81,123 @@
  .carousel-item img{
  width: inherit;
     height: -webkit-fill-available;
+}
+.spacemark{
+    padding: 11px 5px 0px 5px;
+    background-color: #e57a10;
+}
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.info_div {
+    height: 40px;
+    color: #fff;
+  
+   
+}
+.top-border{
+    border-bottom: 0.1rem solid #ea8b48;
+}
+.info-btn{
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0 5px;
+    font-weight: bold;
+    border: 1px solid #d2691e;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+
+.topbar_left{
+    padding-left: 20px;
+}
+
+.topbar_right{
+    text-align: right;
+    padding-right: 20px;
+}
+
+a:hover {
+    color: #df8123;
+    text-decoration: none;
+}
+
+
+.topbar_left a{
+    font-size: 0.8rem;
+    color: #ffffff;
+}
+
+.topbar_right a{
+    color: #ffffff;
+    font-size: 0.8rem;
+    padding: 0 3px 0 3px;
+}
+.topbar_right a i{
+    font-size: 0.9rem;
+   
+}
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    
+    .info_div {
+        height: auto;
+        
+    }
+.topbar_left{
+    text-align: center;
+    -webkit-text-size-adjust: auto;
+    padding-left: 12px;
+}
+
+.topbar_right{
+    text-align: center;
+    -webkit-text-size-adjust: auto;
+    padding-right: 12px;
+}
+
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .info_div {
+        height: auto;
+        
+    }
+.topbar_left{
+    text-align: center;
+    -webkit-text-size-adjust: auto;
+    padding-left: 12px;
+}
+
+.topbar_right{
+    text-align: center;
+    -webkit-text-size-adjust: auto;
+    padding-right: 12px;
+}
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    body {
+        background-color: blue;
+    }
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    body {
+        background-color: green;
+    }
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body {
+        background-color: white;
+    }
 }

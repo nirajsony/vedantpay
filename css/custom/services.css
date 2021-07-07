@@ -1,0 +1,14 @@
+/* Button Background color font size change */
+.btn-bg{
+	background-color:#f78b1f;
+	font-size: 20px;
+}
+
+/* Button with Outline */
+.btn-no-bg{
+	border-color:#f78b1f;
+	font-size: 20px; 
+}
+
+
+
