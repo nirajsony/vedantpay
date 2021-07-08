@@ -1,29 +1,42 @@
 /* Button Background color font size change */
-.btn-bg{
-	background-color:#f78b1f;
-	font-size: 20px;
+.btn-bg {
+  background-color: #f78b1f;
+  font-size: 20px;
 }
 
 /* Button with Outline */
-.btn-no-bg{
-	border-color:#f78b1f;
-	font-size: 20px; 
+.btn-no-bg {
+  border-color: #f78b1f;
+  font-size: 20px;
 }
 
-.card-hover-effect:hover{
-	position: relative;
-  	display: flex;
-  	flex-direction: column;
-  	min-width: 0;
-  	word-wrap: break-word;
-  	background-color: #fff;
-  	background-clip: border-box;
-  	border: 1px solid rgba(0, 0, 0, 0.125);
-  	border-radius: 0.25rem;
-	    /* border: 1px solid black; */
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.card-hover-effect:hover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  /* border: 1px solid black; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-
-
+.heading-line::before {
+  content: "";
+  margin: 0 0 10px 15px;
+  width: 60px;
+  height: 2px;
+  background: #f78b1f;
+  display: inline-block;
+}
+.heading-line::after {
+  content: "";
+  margin: 0 0 10px 15px;
+  width: 60px;
+  height: 2px;
+  background: #f78b1f;
+  display: inline-block;
+}
