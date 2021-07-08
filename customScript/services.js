@@ -1,7 +1,6 @@
   
   // Script for Service Page starts here
-  $(document).ready(function(){
-      $('.autoplay').slick({
+  $('.autoplay').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
@@ -36,5 +35,11 @@
     // instead of a settings object
   ]
 });
-    });
+      
+
+    
       // Script for Service Page ends here
+      $(document).ready(function(){
+        console.log($(window).scrollTop());
+      })
+
