@@ -2,167 +2,206 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services</title>
 
-    <!-- Bootstrap CSS 4.5.2 Local File -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" >
-    <!-- Fontawesom CSS -->
-    <link rel="stylesheet" href="./css/font-awesome.css">
-     <!-- Custom CSS Vedant Pay-->
-     <link rel="stylesheet" href="./css/custom/custom.css">
-     <!--text animation https://animate.style/-->
+  <!-- Bootstrap CSS 4.5.2 Local File -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- Fontawesom CSS -->
+  <link rel="stylesheet" href="./css/font-awesome.css">
+  <!-- Custom CSS Vedant Pay-->
+  <link rel="stylesheet" href="./css/custom/custom.css">
+  <!--text animation https://animate.style/-->
 
-     <!-- Custom Services CSS -->
-     <link rel="stylesheet" type="text/css" href="./css/custom/services.css">
+  <!-- Custom Services CSS -->
+  <link rel="stylesheet" type="text/css" href="./css/custom/services.css">
 
-    <!-- Slick CSS -->
-     <link rel="stylesheet" href="./css/slick/slick.css">
-     <link rel="stylesheet" href="./css/slick/slick-theme.css">
+  <!-- Slick CSS -->
+  <link rel="stylesheet" href="./css/slick/slick.css">
+  <link rel="stylesheet" href="./css/slick/slick-theme.css">
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="./css/aos/aos.css">
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 
 
 
 </head>
 
 <body class="body">
-    
- <nav class="navbar navbar-expand-sm bg-dark navbar-light bg-light sticky-top">
-        <a class="navbar-brand" href="./">
-            <img class="logosize" alt="vedantpay.com" src="./images/logo/logo.png">
-        </a>
-       
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                 <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./services.html">Services</a>
-                </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="./about.html">About</a>
-                </li>
+  <div id="vedcontent" class="container-fluid"><!--  Wrapping div -->
 
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-light bg-light sticky-top">
+      <a class="navbar-brand" href="./index.html">
+        <img class="logosize" alt="vedantpay.com" src="./images/logo/logo.png">
+      </a>
 
-                <li class="nav-item">
-                    <a class="nav-link loginbtn" href="./login.html"><i area-hidde="true" class="icon-user"></i> <span>Login</span></a>
-                </li>
-            </ul>
-        </div>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./services.html">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link loginbtn" href="./login.html"><i area-hidde="true" class="icon-user"></i>
+              <span>Login</span></a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-      <div class="w-100">
-        <div class="container-fluid mt-3"> <!-- 1st Section For Services Page -->
+      <div class="mt-3 mb-2">
         <div class="row m-0">
-          <div class="col-12 col-md-6 m-auto"><!-- Image Div -->
-              <img src="./images/img/hero-img.png" class="rounded mx-auto d-block img-fluid">
+          <div class="col-12 col-md-6" data-aos="zoom-in" data-aos-duration="3000">
+            <img src="./images/img/hero-img.png" class="rounded mx-auto d-block img-fluid">
           </div>
-            <div class="col-12 col-md-6"><!-- Text Div -->
-              <h1 class="mt-5 mb-5">One App,<br><span class="primary_theme_color">Many Services</span></h1>
-              <br>
-              <p>Offer 23+ products and services from your shop and earn an additional Rs. 25,000+ per month. No working capital required.</p>
-              <br>
-              <p><b>Upgrade your shop. Be the one stop banking and digital service provider in your area.</b></p>
-              <br>
-              <div class="container">
-                <div class="row">
-                  <div class="col-12 col-md-6 mb-3 mb-md-2">
-                    <button type="button" class="btn btn-block btn-no-bg">Create Account</button>
-                  </div>
-                  <div class="col-12 col-md-6 mb-3 mb-md-2">
-                    <a href="#" class="btn btn-block stretched-link btn-bg">Know More</a>
-                  </div>
+          <div class="col-12 col-md-6">
+            <h1 class="mt-5 mb-5">One App,<br><span class="primary_theme_color">Many Services</span></h1>
+            <br>
+            <p>Offer 23+ products and services from your shop and earn an additional Rs. 25,000+ per month. No working
+              capital required.</p>
+            <br>
+            <p ><b>Upgrade your shop. Be the one stop banking and digital service provider in your area.</b></p>
+            <br>
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-md-6 mb-3 mb-md-2">
+                  <button type="button" class="btn btn-block btn-no-bg">Create Account</button>
+                </div>
+                <div class="col-12 col-md-6 mb-3 mb-md-2">
+                  <a href="#" class="btn btn-block stretched-link btn-bg">Know More</a>
                 </div>
               </div>
             </div>
           </div>
-        </div><!-- 1st Section For Services Page  END-->
+        </div>
       </div>
-        <div class="autoplay mt-3" id="scroll-bar">
-         
-          <div class="card mx-5" style="width: 18rem;">
-            <img src="./images/img/hero-img1.png" class="card-img-top img-cover" alt="..." style="height:180px;">
-            </div>
 
-            <div class="card mx-5" style="width: 18rem;">
-            <img src="./images/img/hero-img1.png" class="card-img-top img-cover" alt="..." style="height:180px;">
-            </div>
+      <div class="w-100">
+        <div class="row m-0">
+          <div class="col-12 text-center mt-5 mb-5"><h1>SERVICES</h1></div>
+        </div>
+      </div>
 
-            <div class="card mx-5" style="width: 18rem;">
-            <img src="./images/img/hero-img1.png" class="card-img-top img-cover" alt="..." style="height:180px;">
-            </div>
 
-            <div class="card mx-5" style="width: 18rem;">
-            <img src="./images/img/hero-img1.png" class="card-img-top img-cover" alt="..." style="height:180px;">
-            </div>
+      <!-- ************************************************************ -->
 
-            <div class="card mx-5" style="width: 18rem;">
-            <img src="./images/img/hero-img1.png" class="card-img-top img-cover" alt="..." style="height:180px;">
+    <section>
+      <div class="" >
+        <div class="row m-0">
+          <div class="col-12 col-md-4 my-5">
+            <div class="w-100 text-light">
+              <h5 class="p-1 primary_theme_bgcolor w-50 w-md-75">SERVICES</h5>
             </div>
-
-            <div class="card mx-5" style="width: 18rem;">
-            <img src="./images/img/hero-img1.png" class="card-img-top img-cover" alt="..." style="height:180px;">
-            </div>
-            </div>
+            <h1>We Have Best Feature</h1>
             <br>
-        <!-- Services Card UI -->
-        <section>
-          
-          <div class="container-fluid mt-5 mb-5">
-            <div class="row m-0">
-              <div class="col-12 col-md-4 m-auto"><!-- 1st DIV -->
-                <div class="w-100 text-light"><h5 class="p-1 primary_theme_bgcolor w-50 w-md-75">SERVICES</h5></div>
-              <h1>We Have Best Feature</h1>
-              <br>
-              <p>Deos et accusamus et iusto odio dignissimos qui blanditiis praesentium voluptatum dele corrupti quos dolores et quas molestias.</p>
-              </div>
+            <p>Deos et accusamus et iusto odio dignissimos qui blanditiis praesentium voluptatum dele corrupti quos
+              dolores et quas molestias.</p>
+          </div>
 
-              <div class="col-12 card col-md-4 m-auto"><!-- 2nd DIV -->
-                <img src="./images/img/services/01.png" class="rounded mx-auto d-block mt-4" style="width: 129px;height: 116;">
-                <h4 class="mt-3 text-center">Digital Marketing</h4>
-                <p class="text-center">Design must be functional, and futionality must translated into, and futionality must translated into.</p>
-              </div>
-
-              <div class="col-12 card col-md-4 m-auto"><!-- 3rd DIV -->
-                <img src="./images/img/services/02.png" class="rounded mx-auto d-block mt-4" style="width: 129px;height: 116;">
-                <h4 class="mt-3 text-center">Content Marketing</h4>
-                <p class="text-center">Design must be functional, and futionality must translated into, and futionality must translated into.</p>
-              </div>
-
-                            <div class="col-12 card col-md-4 m-auto"><!-- 4th DIV -->
-                <img src="./images/img/services/03.png" class="rounded mx-auto d-block mt-4" style="width: 129px;height: 116;">
-                <h4 class="mt-3 text-center">Content Marketing</h4>
-                <p class="text-center">Design must be functional, and futionality must translated into, and futionality must translated into.</p>
-              </div>
-
-                            <div class="col-12 card col-md-4 m-auto"><!-- 5th DIV -->
-                <img src="./images/img/services/04.png" class="rounded mx-auto d-block mt-4" style="width: 129px;height: 116;">
-                <h4 class="mt-3 text-center">Content Marketing</h4>
-                <p class="text-center">Design must be functional, and futionality must translated into, and futionality must translated into.</p>
-              </div>
-
-                            <div class="col-12 card col-md-4 m-auto"><!-- 6th DIV -->
-                <img src="./images/img/services/05.png" class="rounded mx-auto d-block mt-4" style="width: 129px;height: 116;">
-                <h4 class="mt-3 text-center">Content Marketing</h4>
-                <p class="text-center">Design must be functional, and futionality must translated into, and futionality must translated into.</p>
-              </div>
-
-
-
-
+          <div class="col-12 col-md-4  my-3">
+            <div class="card-hover-effect">
+              <img src="./images/img/services/01.png" class="rounded mx-auto d-block mt-4"
+              style="width: 129px;height: 116;">
+            <h4 class="mt-3 text-center">Digital Marketing</h4>
+            <p class="text-center">Design must be functional, and futionality must translated into, and futionality must
+              translated into.</p>
             </div>
           </div>
 
+          <div class="col-12 col-md-4 my-3">
+            <div class="card-hover-effect">
+              <img src="./images/img/services/02.png" class="rounded mx-auto d-block mt-4"
+              style="width: 129px;height: 116;">
+            <h4 class="mt-3 text-center">Content Marketing</h4>
+            <p class="text-center">Design must be functional, and futionality must translated into, and futionality must
+              translated into.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 my-3">
+            <div class="card-hover-effect">
+              <img src="./images/img/services/03.png" class="rounded mx-auto d-block mt-4"
+              style="width: 129px;height: 116;">
+            <h4 class="mt-3 text-center">Content Marketing</h4>
+            <p class="text-center">Design must be functional, and futionality must translated into, and futionality must
+              translated into.</p>
+            </div>
+            
+          </div>
+
+          <div class="col-12 col-md-4 my-3">
+            <div class="card-hover-effect">
+              <img src="./images/img/services/04.png" class="rounded mx-auto d-block mt-4"
+              style="width: 129px;height: 116;">
+            <h4 class="mt-3 text-center">Content Marketing</h4>
+            <p class="text-center">Design must be functional, and futionality must translated into, and futionality must
+              translated into.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 my-3">
+            <div class="card-hover-effect">
+            <img src="./images/img/services/05.png" class="rounded mx-auto d-block mt-4"
+            style="width: 129px;height: 116;">
+          <h4 class="mt-3 text-center">Content Marketing</h4>
+          <p class="text-center">Design must be functional, and futionality must translated into, and futionality must
+            translated into.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ************************************************ -->
+    <!-- <div class="autoplay" id="scroll-bar">
+
+      <div class="card mx-5" style="width: 10rem;">
+        <img src="./images/img/services/01.png" class="card-img-top img-cover" alt="..." style="height:100px;">
+      </div>
+
+      <div class="card mx-5" style="width: 10rem;">
+        <img src="./images/img/services/02.png" class="card-img-top img-cover" alt="..." style="height:100px;">
+      </div>
+
+      <div class="card mx-5" style="width: 10rem;">
+        <img src="./images/img/services/03.png" class="card-img-top img-cover" alt="..." style="height:100px;">
+      </div>
+
+      <div class="card mx-5" style="width: 10rem;">
+        <img src="./images/img/services/04.png" class="card-img-top img-cover" alt="..." style="height:100px;">
+      </div>
+
+      <div class="card mx-5" style="width: 10rem;">
+        <img src="./images/img/services/05.png" class="card-img-top img-cover" alt="..." style="height:100px;">
+      </div>
+
+      <div class="card mx-5" style="width: 10rem;">
+        <img src="./images/img/services/06.png" class="card-img-top img-cover" alt="..." style="height:100px;">
+      </div>
+    </div>
+    <br>
+    <br>
+    <br> -->
 
 
 
@@ -172,18 +211,23 @@
 
 
 
-        </section>
-        <br>         
+
+
+  </div>
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="./js/jquery.min.js" type="text/javascript"></script>
-    <script src="./js/popper.min.js" type="text/javascript"></script>
-    <script src="./js/bootstrap.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="./js/slick/slick.min.js"></script>
-     <script src="./customScript/custom.js" type="text/javascript"></script>
-    <script src="./customScript/services.js" type="text/javascript"></script>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="./js/jquery.min.js" type="text/javascript"></script>
+  <script src="./js/popper.min.js" type="text/javascript"></script>
+  <script src="./js/bootstrap.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="./js/slick/slick.min.js"></script>
+  <script type="text/javascript" src="./js/aos/aos.js"></script><!-- AOS JS  -->
+  <script src="./customScript/custom.js" type="text/javascript"></script>
+  <script src="./customScript/services.js" type="text/javascript"></script>
 </body>
+
 </html>
