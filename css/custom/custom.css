@@ -68,11 +68,23 @@ body{
     padding: .3rem 1rem .3rem 1rem !important;
 }
 
+.globalBtn{
+  background-color: #f78b1f;
+  border-radius: 2px;
+  color: white !important;
+  padding: .3rem 1rem .3rem 1rem !important;
+}
+
 .navbar{
    background:  rgba(0,0,0,.2);
    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
    font-weight: 300;
 }
+
+.navbar-brand{
+  padding: 1rem 0 1rem 0;
+}
+
 
 .carousel-inner {
     height:550px;
@@ -94,9 +106,8 @@ body{
 .info_div {
     height: 40px;
     color: #fff;
-  
-   
 }
+
 .top-border{
     border-bottom: 0.1rem solid #ea8b48;
 }
@@ -141,6 +152,18 @@ a:hover {
    
 }
 
+.marqBox{
+  vertical-align: middle;
+    height: 28px;
+}
+
+.marqBox marquee{
+  padding-top: 4px;
+}
+
+
+
+/* ***********************************Media Query for all pages Begin******************************************** */
  /* Media Query for Mobile Devices */
  @media (max-width: 480px) {
     
@@ -160,16 +183,17 @@ a:hover {
     padding-right: 12px;
 }
 
+.footrcontent{
+  padding: 0 1rem 0 1rem;
 }
 
-.marqBox{
-  vertical-align: middle;
-    height: 28px;
+.global_centr_align{
+  text-align: center !important;
+  -webkit-text-size-adjust: auto;
 }
 
-.marqBox marquee{
-  padding-top: 4px;
 }
+
   
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
@@ -188,6 +212,11 @@ a:hover {
     -webkit-text-size-adjust: auto;
     padding-right: 12px;
 }
+
+.footrcontent{
+  padding: 0 1rem 0 1rem;
+}
+
 }
   
 /* Media Query for Tablets Ipads portrait mode */
@@ -195,6 +224,10 @@ a:hover {
     body {
         background-color: blue;
     }
+    .footrcontent{
+      padding: 0 4rem 0 4rem;
+    }
+    
 }
   
 /* Media Query for Laptops and Desktops */
@@ -202,6 +235,10 @@ a:hover {
     body {
         background-color: green;
     }
+    .footrcontent{
+      padding: 0 4rem 0 4rem;
+    }
+    
 }
   
 /* Media Query for Large screens */
@@ -209,9 +246,12 @@ a:hover {
     body {
         background-color: white;
     }
+    .footrcontent{
+      padding: 0 4rem 0 4rem;
+    }
+    
 }
-
-
+ /* *************************************Media query END****************************************** */
 
 
 
@@ -696,3 +736,214 @@ a:hover {
       transform: scale(1, 1);
     }
   }
+
+/* Footer starts here */
+
+
+.new_footer_area {
+  background: #fbfbfd;
+}
+
+
+.new_footer_top {
+  padding: 120px 0px 270px;
+  position: relative;
+    overflow-x: hidden;
+}
+.new_footer_area .footer_bottom {
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+.footer_bottom {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #7f88a6;
+  padding: 27px 0px;
+}
+.new_footer_top .company_widget p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #6a7695;
+  margin-bottom: 20px;
+}
+.new_footer_top .company_widget .f_subscribe_two .btn_get {
+  border-width: 1px;
+  margin-top: 20px;
+}
+.btn_get_two:hover {
+  background: transparent;
+  color: #e57a10;
+}
+.btn_get:hover {
+  color: #fff;
+  background: #e57a10;
+  border-color: #e57a10;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+
+
+.new_footer_top .f_widget.about-widget .f_list li a:hover {
+  color: #e57a10;
+}
+.new_footer_top .f_widget.about-widget .f_list li {
+  margin-bottom: 11px;
+}
+.f_widget.about-widget .f_list li:last-child {
+  margin-bottom: 0px;
+}
+.f_widget.about-widget .f_list li {
+  margin-bottom: 15px;
+}
+.f_widget.about-widget .f_list {
+  margin-bottom: 0px;
+}
+.new_footer_top .f_social_icon a {
+  width: 44px;
+  height: 44px;
+  line-height: 43px;
+  background: transparent;
+  border: 1px solid #e2e2eb;
+  font-size: 24px;
+}
+.f_social_icon a {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 45px;
+  color: #858da8;
+  display: inline-block;
+  background: #ebeef5;
+  text-align: center;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.ti-facebook:before {
+  content: "\e741";
+}
+.ti-twitter-alt:before {
+  content: "\e74b";
+}
+.ti-vimeo-alt:before {
+  content: "\e74a";
+}
+.ti-pinterest:before {
+  content: "\e731";
+}
+
+.btn_get_two {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #e57a10;
+  border-color: #e57a10;
+  color: #fff;
+}
+
+.btn_get_two:hover {
+  background: transparent;
+  color: #e57a10;
+}
+
+.new_footer_top .f_social_icon a:hover {
+  background: #e57a10;
+  border-color: #e57a10;
+color:white;
+}
+.new_footer_top .f_social_icon a + a {
+  margin-left: 4px;
+}
+.new_footer_top .f-title {
+  margin-bottom: 30px;
+  color: #263b5e;
+}
+.f_600 {
+  font-weight: 600;
+}
+.f_size_18 {
+  font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #4b505e;
+}
+.new_footer_top .f_widget.about-widget .f_list li a {
+  color: #6a7695;
+}
+
+
+.new_footer_top .footer_bg {
+  position: absolute;
+  bottom: 0;
+  background: url(../../images/background/footer_bg.png) no-repeat scroll center 0;
+  width: 100%;
+  background-size: 100% 100%;
+  height: 266px;
+}
+
+.new_footer_top .footer_bg .footer_bg_one {
+  background: url(../../images/background/car.gif) no-repeat center center;
+  width: 330px;
+  height: 105px;
+background-size:100%;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  -webkit-animation: myfirst 22s linear infinite;
+  animation: myfirst 22s linear infinite;
+}
+
+.new_footer_top .footer_bg .footer_bg_two {
+  background: url(../../images/background/cyclist.gif) no-repeat center center;
+  width: 88px;
+  height: 100px;
+background-size:100%;
+  bottom: 0;
+  left: 38%;
+  position: absolute;
+  -webkit-animation: myfirst 30s linear infinite;
+  animation: myfirst 30s linear infinite;
+}
+
+
+
+@-moz-keyframes myfirst {
+0% {
+  left: -25%;
+}
+100% {
+  left: 100%;
+}
+}
+
+@-webkit-keyframes myfirst {
+0% {
+  left: -25%;
+}
+100% {
+  left: 100%;
+}
+}
+
+@keyframes myfirst {
+0% {
+  left: -25%;
+}
+100% {
+  left: 100%;
+}
+}
+
+
+/*************footer End*****************/
+
+
+/* Footer ends here */
+  
