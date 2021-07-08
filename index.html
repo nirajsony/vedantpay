@@ -20,10 +20,29 @@
      
 </head>
   <body>
-      
-    <div class="container-fluid info_div bgcolor2">
+
+    <div class="precontainer">
+        <div class="loader">
+           
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__ball"></div>
+            <p>Loading...</p>
+          </div>
+    </div>
+   
+    
+    
 
 
+    <div id="vedcontent" class="container-fluid">
+
+  
+
+    <!-- <div  class="container-fluid info_div bgcolor2">
         <div class="row margin0 top-border">
             <div class="col-md-6 topbar_left">  
                 <a class="icon-envelope-alt primary_theme_color" title="Mail at"> &nbsp;info@vedantpay.com</a>
@@ -38,12 +57,12 @@
                     <a target="_blank" href="https://plus.google.com/u/0/110575892623999943291"><i class="icon-google-plus" title="Google +"></i></a>
                     <a target="_blank" href="https://www.facebook.com/ubiqueITsolutions/"><i class="icon-facebook-sign" title="Facebook"></i></a>
             </div>
-        </div>
+        </div> -->
 
 
       
 
-      <nav class="navbar navbar-expand-sm bg-dark navbar-light bg-light sticky-top">
+      <nav id="menubar" class="navbar navbar-expand-sm bg-dark navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="#">
             <img class="logosize" alt="vedantpay.com" src="./images/logo/logo.png">
         </a>
@@ -91,13 +110,20 @@
     </nav>
 
 
-     
-  
-
+     <!--Marquee Start-->
+    <div class="container-fluid">
+        <div class="row margin0 bgcolor2" >
+          <div class="col-lg-10 col-md-9 col-sm-10 col-xs-12 marqBox">
+            <marquee scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
+              <a href="https://nirajsony.github.io/vedantpay/login.html" target="_blank" style="color: #fff;"> वेदांत पेय पर रजिस्ट्रेशन करने के लिए  Online Signup https://vedantpay.com/registration क्लिक करें. </a>
+            </marquee>
+          </div>
+        </div>
+      </div>
+    <!--Marquee End-->
 
     <!-- Slider main container -->
     <section id="slider">
-
      <div id="carouselId" class="carousel slide" data-ride="carousel">
          <ol class="carousel-indicators">
              <li data-target="#carouselId" data-slide-to="0" class="active"></li>
@@ -136,19 +162,15 @@
              <span class="sr-only">Next</span>
          </a>
      </div>
-     <div class="container-fluid">
-        <div class="row margin0 bgcolor2" >
-          <div class="col-lg-10 col-md-9 col-sm-10 col-xs-12">
-            <marquee scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
-             <h6 class="spacemark">
-              <a href="https://nirajsony.github.io/vedantpay/login.html" target="_blank" style="color: #fff;"> वेदांत पेय पर रजिस्ट्रेशन करने के लिए  Online Signup https://nirajsony.github.io/vedantpay/login.html </a>
-              </h6>
-            </marquee>
-          </div>
-        </div>
-      </div>
+     
     </section>
+
+
     
+
+
+
+</div>
 
 
     <!-- Optional JavaScript -->
