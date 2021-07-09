@@ -9,6 +9,9 @@
     color: #f78b1f;
 }
 
+.colortextblack{
+  color: black;
+}
 
 .primary_theme_bgcolor{
     background-color: #f78b1f;
@@ -62,6 +65,10 @@ body{
     margin-right: 0 !important;
 }
 
+.marginbot15{
+  margin-bottom: 10px !important;
+}
+
 .padding0{
    padding-left: 0!important;
    padding-right: 0!important;
@@ -72,6 +79,13 @@ body{
   background-size: 100% 100%;
 }
 
+.slideul{
+  text-decoration: none;
+  text-align: left;
+  list-style-type: none;
+  
+}
+
 
 .carousel-item img {
   width: inherit;
@@ -80,7 +94,7 @@ body{
 
 .carousel-caption {
   
-  top: 33%;
+  top: 20%;
   
 }
 
@@ -215,6 +229,10 @@ a:hover {
 /* ***********************************Media Query for all pages Begin******************************************** */
  /* Media Query for Mobile Devices */
  @media (max-width: 480px) {
+
+  .whyimg{
+    width: 350px !important;
+  }
     
     .info_div {
         height: auto;
@@ -431,7 +449,29 @@ a:hover {
 
 
 
+/* before footer */
+.bfrtitle{
+  font-size: 2.7rem;
+  font-weight: 800;
+}
 
+.bfrimg{
+  height: 292px;
+    bottom: 16%;
+    position: relative;
+}
+
+.border-bottom{
+  border-bottom: 1px solid #e57a10 !important;
+}
+
+.bfrpad40{
+  padding: 40px;
+}
+
+.pad15{
+  padding: 0 15px 0 15px;
+}
 
   /* Bar loader*/
 
@@ -996,3 +1036,193 @@ background-size:100%;
 
 /* Footer ends here */
   
+
+/* background animation floating elements */
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.context {
+    width: 100%;
+    position: absolute;
+    top:50vh;
+    
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+.area{
+    
+   
+    
+   
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.licolorred{
+
+  background:#ff2b25;
+}
+.licolorblue{
+  background:#fdc847;
+}
+.licoloryellow{
+  background:#008cec;
+}
+.licolorgreen{
+  background:#1ac7ad;
+}
+.licolorindigo{
+  background:#6610f2;
+}
+.licolororange{
+  background:#f78b1f;
+}
+
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+.circles li:nth-child(11){
+  left: 78%;
+  width: 35px;
+  height: 35px;
+  animation-delay: 0s;
+  animation-duration: 25s;
+}
+
+.circles li:nth-child(12){
+  left: 45%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+.circles li:nth-child(13){
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+/* background animation floating elements */
