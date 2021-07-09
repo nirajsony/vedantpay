@@ -1,8 +1,8 @@
-.register{background: rgb(247,139,31);
-background: linear-gradient(90deg, rgba(247,139,31,1) 33%, rgba(230,140,51,0.7346288857339811) 79%);
+.register{background: rgb(255, 255, 255);
 
-    margin-top: 3%;
-    padding: 3%;
+    margin-top: 2%;
+    padding: 2%;
+
 }
 .register-left{
     text-align: center;

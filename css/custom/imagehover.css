@@ -70,8 +70,8 @@ section .screen:nth-child(6){
 }
 section .screen .content{
     position: absolute;
-    margin-top:200px;
-    width:45%;
+    margin-top:50px;
+    width:40%;
     height: auto;
     background:#fff;
     padding:10px;
