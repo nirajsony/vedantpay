@@ -53,108 +53,115 @@
                     <a class="nav-link" href="./contact.html">Contact</a>
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item" >
                     <a class="nav-link loginbtn" href="./login.html"><i area-hidde="true" class="icon-user"></i> <span>Login</span></a>
                 </li>
               </ul>
           </div>
       </nav>
 </div>
+<!--
+
+<div class="col-lg-6 ">
+  <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen=""></iframe>
+</div>
+
+-->
+
 
 
     <!-- contact -->
-    <div class="container-fluid rounded" id="contacts-section" style="margin-top: 25px">
-      <div class="row px-5 card0" >
-        <div class="col-sm-6 left-card">
-          <div>
-            <h3 class="text-black">Contact us</h3>
-            <p class="text-secondary">
-              Fill up the form and our Team will get back to you within in 24
-              hours
-            </p>
-          </div>
-          <div class="links" id="bordering">
-            <a href="#" class="contact text-secondary p-3"
-              ><img class="contacts-icon"
-                src="https://img.icons8.com/ios-glyphs/23/000000/phone--v1.png"
-              />+0123 4567 8910</a
-            >
-            <a href="#" class="contact text-secondary p-3">
-              <img class="contacts-icon"
-                src="https://img.icons8.com/material-two-tone/23/000000/send-mass-email.png"
-              />hello@flowbase.com</a
-            >
-            <a href="#" class="contact text-secondary p-3"
-              ><img class="contacts-icon" src="https://img.icons8.com/material/23/000000/worldwide-location.png"/></i>102 street
-              2714 Don</a
-            >
-           
-          </div>
-          <!--
-          <div class="pt-lg-4 d-flex flex-row justify-content-start">
-            <div class="pad-icon">
-              <a class="fa fa-facebook text-white" href="#"></a>
-            </div>
-            <div class="pad-icon">
-              <a class="fa fa-twitter text-white" href="#"></a>
-            </div>
-            <div class="pad-icon">
-              <a class="fa fa-instagram text-white" href="#"></a>
-            </div>
-            
-          </div>
-          -->
+
+
+    <div class="container rounded" style="margin-top: 25px">
+
+      <div class="row aos-init aos-animate m-0" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="col-lg-6"  style="
+        padding: 20px;
+    ">
+          <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen=""></iframe>
         </div>
-        <div class="col-sm-6 pad right-card">
-          <form class="rounded msg-form">
-            <div class="form-group">
-              <label for="name" class="h6">Your Name</label>
-              <div class="input-group border rounded">
-                <div class="input-group-addon px-2 pt-1">
-                  <img
-                    src="https://img.icons8.com/material-rounded/24/000000/user.png"
-                  />
-                </div>
-                <input type="text" class="form-control  border-0" />
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="name" class="h6">Email</label>
-              <div class="input-group border rounded">
-                <div class="input-group-addon px-2 pt-1">
-                  <img
-                    src="https://img.icons8.com/material-two-tone/24/000000/send-mass-email.png"
-                  />
-                </div>
-                <input type="text" class="form-control  border-0" />
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="msg" class="h6">Message</label>
-              <textarea
-                name="message"
-                id="msgus"
-                cols="10"
-                rows="5"
-                class="form-control  bg-light"
-                placeholder="Message"
-              ></textarea>
-            </div>
-            <div class="form-group d-flex justify-content-end">
-              <div class="row mb-3 px-3">
-               
-                
-                <a type="submit" class="btn globalBtn">
-                    Send Message
-                </a>       
-              </div>
-          
+    
+        <div class="col-lg-6" style="
+        padding: 20px;
+    ">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="form-group col-lg-12 col-md-12">
+              <h3>Contact us</h3>
+              <hr>
+              <p class="text-secondary">
+                Fill up the form and our Team will get back to you within in 24
+                hours
+              </p>
               
+              </div>
+              <div class="col form-group">
+                
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+              </div>
+              <div class="col form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+              </div>
             </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
+            </div>
+            <!--
+
+               <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+
+
+            -->
+
+            <a type="submit" class="btn globalBtn">
+              Send Message
+          </a> 
+           
           </form>
         </div>
       </div>
-    </div>
+        </div>
+
+       
+        <div class="container">
+          <hr>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="links">
+                <a href="#"  style="display: block;
+                text-align: left;" class="text-secondary p-3"><img  style="margin-right: 10px;" src="https://img.icons8.com/ios-glyphs/23/000000/phone--v1.png">+0123 4567 8910</a>
+                <a href="#"  style="display: block;
+                text-align: left;" class=" text-secondary p-3">
+                  <img       style="margin-right: 10px;" src="https://img.icons8.com/material-two-tone/23/000000/send-mass-email.png">hello@flowbase.com</a>
+                <a href="#"   style="display: block;
+                text-align: left;" class=" text-secondary p-3"><img       style="margin-right: 10px;" src="https://img.icons8.com/material/23/000000/worldwide-location.png">102 street
+                  2714 Don</a>
+               
+              </div>
+            </div>
+            
+            <div class="col-lg-6">
+              <div style="margin: 10px auto auto 5px;"><h3><b>For Any Query</b></h3>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply 
+                  random text. It has roots in a piece of classical Latin 
+                  literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+             
+
+            </div>
+          </div>
+        </div>
+
+
 
 
           <!---------------  Footer  ---------------------------->
