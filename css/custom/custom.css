@@ -17,6 +17,10 @@
 .bgcolor2{
     background-color:#e57a10;
 }
+.textslider{
+  color: #f78b1f;
+  font-weight: 800;
+}
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -63,6 +67,24 @@ body{
    padding-right: 0!important;
 }
 
+.slideimg{
+  
+  background-size: 100% 100%;
+}
+
+
+.carousel-item img {
+  width: inherit;
+  height: 550px !important;
+}
+
+.carousel-caption {
+  
+  top: 33%;
+  
+}
+
+
 .bg-light{
     background-color:#fbfbfb!important
 }
@@ -104,7 +126,7 @@ body{
 
 .navbar{
    background:  rgba(0,0,0,.2);
-   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+   box-shadow: 0 2px 3px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
    font-weight: 300;
 }
 
