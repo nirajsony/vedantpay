@@ -2,3 +2,14 @@
     width: 400px;
     height: 400px;
 }
+
+.slide-img{
+    height: 400px;
+    width: 100%;
+    border: 5px solid black;
+}
+
+.slide-btn-color{
+    color: black;
+    background-color: gray;
+}
