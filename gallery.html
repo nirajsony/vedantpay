@@ -120,7 +120,21 @@
             </div>
         </div>
 
-        
+        <div class="mx-5">
+            <!-- Heading -->
+            <div class="mt-3 mb-3">
+                <h5 class="mb-0">Team</h5>
+                <span class="line-heading"></span>
+            </div>
+            <div class="row m-0 multiple-items">
+                <div class="col-4">1</div>
+                <div class="col-4">2</div>
+                <div class="col-4">3</div>
+                <div class="col-4">4</div>
+                <div class="col-4">5</div>
+                <div class="col-4">6</div>
+            </div>
+        </div>
 
 
 
@@ -230,6 +244,19 @@
     <script src="./customScript/gallery.js" type="text/javascript"></script>
     <script src="./js/slick/slick.min.js"></script>
 
+    <script>
+        $(document).ready((e) => {
+            $('.multiple-items').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                arrows: true,
+                prevArrow: '<div class="slick-prev" style="color:black;background-color:black;"><</div>',
+                nextArrow: '<div class="slick-next" style="color:black;background-color:black;">></div>'
+            });
+
+        });
+    </script>
 </body>
 
 </html>
