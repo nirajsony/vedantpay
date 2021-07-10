@@ -231,6 +231,12 @@ a:hover {
   border-bottom: 1px solid #e26224;
 }
 
+/* services */
+.srvcimg{
+  position: relative;
+  left: 15%;
+}
+
 /* ***********************************Media Query for all pages Begin******************************************** */
  /* Media Query for Mobile Devices */
  @media (max-width: 480px) {
@@ -238,6 +244,12 @@ a:hover {
   .whyimg{
     width: 350px !important;
   }
+
+  .srvcimg {
+    position: relative;
+    left: 0 !important;
+    width: 300px;
+}
     
     .info_div {
         height: auto;
