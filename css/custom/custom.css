@@ -225,7 +225,10 @@ a:hover {
 }
 
 .navbg {
-  background-color: #f78b1f!important;
+  transition-duration: 00.2s;
+  transition-timing-function: ease;
+  transform-style: preserve-3d;
+  border-bottom: 1px solid #e26224;
 }
 
 /* ***********************************Media Query for all pages Begin******************************************** */
