@@ -207,4 +207,10 @@ label{
       margin-bottom: 0.5rem;
   }
 }
-/* Home page get a quote form starts here */
+/* Home page get a quote form ENDS here */
+
+#scroll-bar img{
+  width: 120px;
+  padding-bottom: 15px;
+margin: 0 auto;
+}
