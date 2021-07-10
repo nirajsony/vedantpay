@@ -115,24 +115,45 @@
         <!--Marquee End-->
         <div class="mt-3 mb-3 ">
             <div class="text-center">
-                <h3 class="mb-0 heading-line"> Gallery </h3>
+                <h3 class="mb-0 heading-line my-5"> Team </h3>
                 <!-- <span class="line-heading"></span> -->
             </div>
         </div>
 
-        <div class="mx-5">
+        <div class="mx-5 text-center">
             <!-- Heading -->
-            <div class="mt-3 mb-3">
+            <!-- <div class="mt-3 mb-3">
                 <h5 class="mb-0">Team</h5>
                 <span class="line-heading"></span>
+            </div> -->
+            <div class="row m-0 multiple-items text-center">
+                <div class="col-md-4 col-12 m-md-auto"><img src="https://picsum.photos/350/300" class="img-fluid"></div>
+                <div class="col-md-4 col-12 m-md-auto"><img src="https://picsum.photos/350/300" class="img-fluid"></div>
+                <div class="col-md-4 col-12 m-md-auto"><img src="https://picsum.photos/350/300" class="img-fluid"></div>
+                <div class="col-md-4 col-12 m-md-auto"><img src="https://picsum.photos/350/300" class="img-fluid"></div>
+                <div class="col-md-4 col-12 m-md-auto"><img src="https://picsum.photos/350/300" class="img-fluid"></div>
+                <div class="col-md-4 col-12 m-md-auto"><img src="https://picsum.photos/350/300" class="img-fluid"></div>
             </div>
-            <div class="row m-0 multiple-items">
-                <div class="col-4">1</div>
-                <div class="col-4">2</div>
-                <div class="col-4">3</div>
-                <div class="col-4">4</div>
-                <div class="col-4">5</div>
-                <div class="col-4">6</div>
+        </div>
+        <br>
+        <br>
+        <div class="mt-3 mb-3 ">
+            <div class="text-center">
+                <h3 class="mb-0 heading-line my-5"> Office </h3>
+                <!-- <span class="line-heading"></span> -->
+            </div>
+        </div>
+
+        <div id="ofcDiv" class="ofcDiv">
+            <div class="row m-0 mb-3 text-center">
+                <div class="col-md-4 col-12  mb-3 m-md-auto"><img src="https://picsum.photos/400/300" ></div>
+                <div class="col-md-4 col-12  mb-3 m-md-auto"><img src="https://picsum.photos/400/300" ></div>
+                <div class="col-md-4 col-12  mb-3 m-md-auto"><img src="https://picsum.photos/400/300" ></div>
+            </div>
+            <div class="row m-0 mb-3 text-center ofcDivMgTop">
+                <div class="col-md-4 col-12  mb-3  m-md-auto"><img src="https://picsum.photos/400/300" ></div>
+                <div class="col-md-4 col-12  mb-3  m-md-auto"><img src="https://picsum.photos/400/300" ></div>
+                <div class="col-md-4 col-12  mb-3  m-md-auto"><img src="https://picsum.photos/400/300" ></div>
             </div>
         </div>
 
@@ -252,7 +273,42 @@
                 slidesToScroll: 3,
                 arrows: true,
                 prevArrow: '<div class="slick-prev" style="color:black;background-color:black;"><</div>',
-                nextArrow: '<div class="slick-next" style="color:black;background-color:black;">></div>'
+                nextArrow: '<div class="slick-next" style="color:black;background-color:black;">></div>',
+                responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        arrows:true,
+        prevArrow: '<div class="slick-prev" style="color:black;background-color:black;"><</div>',
+        nextArrow: '<div class="slick-next" style="color:black;background-color:black;">></div>',
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows:true,
+        prevArrow: '<div class="slick-prev" style="color:black;background-color:black;"><</div>',
+        nextArrow: '<div class="slick-next" style="color:black;background-color:black;">></div>',
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows:true,
+        prevArrow: '<div class="slick-prev" style="color:black;background-color:black;"><</div>',
+        nextArrow: '<div class="slick-next" style="color:black;background-color:black;">></div>',
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
             });
 
         });
