@@ -225,7 +225,16 @@ a:hover {
 }
 
 .navbg {
-  background-color: #f78b1f!important;
+  transition-duration: 00.2s;
+  transition-timing-function: ease;
+  transform-style: preserve-3d;
+  border-bottom: 1px solid #e26224;
+}
+
+/* services */
+.srvcimg{
+  position: relative;
+  left: 15%;
 }
 
 /* ***********************************Media Query for all pages Begin******************************************** */
@@ -235,6 +244,12 @@ a:hover {
   .whyimg{
     width: 350px !important;
   }
+
+  .srvcimg {
+    position: relative;
+    left: 0 !important;
+    width: 300px;
+}
     
     .info_div {
         height: auto;

@@ -48,8 +48,13 @@
   $(window).scroll( function(){
 
     //document.getElementsByTagName("nav").toogleClass("xyz", 150);
-    $('#menubar').toogleClass("navbg", $(this).scrollTop() > 50);
-    alert("hello")
+    //$('#menubar').toogleClass("navbg", $(this).scrollTop() > 50);
+    $('#menubar').toggleClass("navbg", ($(window).scrollTop() > 150));
+    // if($(this).scrollTop() > 50){
+    //   $('#menubar').addClass("navbg");
+    // }
+    
+    
 
   }
   );
