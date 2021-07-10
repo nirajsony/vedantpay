@@ -90,3 +90,15 @@ section .screen .content h2{
     font-size: 20px;
 
 }
+.glowing_button{
+    animation: glowing 1500ms infinite;
+}
+
+
+@keyframes glowing {
+    0% { background-color: #f78b1f; -webkit-box-shadow: 0 0 1px #f17d09; }
+    25% { background-color: #af8051; -webkit-box-shadow: 0 0 4px #b9742f; }
+    50% { background-color: #ff8000; -webkit-box-shadow: 0 0 4px #ad6620; }
+    75% { background-color: #91571e; -webkit-box-shadow: 0 0 4px #f17b04c2; }
+    100% { background-color: #f78b1fa6; -webkit-box-shadow: 0 0 2px #ff8000; }
+  }
