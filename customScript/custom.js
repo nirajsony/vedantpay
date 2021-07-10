@@ -42,5 +42,17 @@
       // instead of a settings object
     ]
   });
+
+
+
+  $(window).scroll( function(){
+
+    //document.getElementsByTagName("nav").toogleClass("xyz", 150);
+    $('#menubar').toogleClass("navbg", $(this).scrollTop() > 50);
+    alert("hello")
+
+  }
+  );
+
         
     });
