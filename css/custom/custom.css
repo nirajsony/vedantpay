@@ -231,6 +231,13 @@ a:hover {
   border-bottom: 1px solid #e26224;
 }
 
+.tagline{
+  position: absolute;
+  left: 2%;
+  top: 58%;
+  font-size: 16px;
+}
+
 /* services */
 .srvcimg{
   position: relative;
