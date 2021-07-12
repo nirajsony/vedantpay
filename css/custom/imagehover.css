@@ -91,7 +91,7 @@ section .screen .content h2{
 
 }
 .glowing_button{
-    animation: glowing 1500ms infinite;
+    animation: glowing 600ms infinite;
 }
 
 
